@@ -12,3 +12,12 @@ python3 manage.py runserver
 python3 manage.py createsuperuser
 6. Mutate the state
 add a book, author, book instance, etc.
+7. Commit changes
+fork repository
+8. Add a remote repo
+git remote add github SSH_URL
+9. Push commits to the github remote
+git push github main --force
+10. Tag
+git tag -a v1.0 -m "Submission"
+git push github v1.0
